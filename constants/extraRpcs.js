@@ -2408,6 +2408,16 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.j2o,
       },
     ],
+  },
+  11: {
+    rpcs: [
+      "https://rpc.us0-aws.kaleido.io/",
+      {
+        url: "https://u0sx6vlt8q-u0eg6xy1wz-rpc.us0-aws.kaleido.io/",
+        tracking: "yes",
+        trackingDetails: privacyStatement.cloudFlare,
+      },
+    ],
   }
 };
 
